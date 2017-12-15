@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>readme.html</title>
+    </head>
+    <body>
+        <!-- <h1>readme.html</h1> -->
+        <h2>Legal Information</h2>
+        <p>This software is provided as is without warranty of any kind, whether express or implied, including warranties of merchantability and fitness for a particular purpose which are hereby disclaimed. In no event will SCS Software be liable for any special, incidental, or consequential damages resulting from possession, use, or malfunction of this SCS Software product.</p>
+        <p>Some states do not allow limitations as to how long an implied warranty lasts and/or exclusions or limitations of incidental or consequential damages so the above limitations and/or exclusions of liability may not apply to you. This warranty gives you specific rights, and you may also have other rights which vary from state to state.</p>
+        <p>SCS Software reserves the right to make improvements in this file and to the software at any time and without notice. This file and the software herewith is copyrighted. All rights are reserved. No part of this file or the software may be copied, reproduced, translated, or reduced to any electronic medium or machine-readable form without the prior written consent of SCS Software.</p>
+
+        <h2>Introduction</h2>
+        <p>December, 2017</p>
+        <p>Thank you for purchasing <a href="https://americantrucksimulator.com">American Truck Simulator</a> and/or <a href="https://eurotrucksimulator2.com">Euro Truck Simulator 2</a>. This <code>readme</code> describes how to play custom internet radio streams and music files in the game.</p>
+        <h3>How to add your favorite online radio to the game</h3>
+        <p>Open the file <code>live_streams.sii</code> with your favorite text editor:</p>
+        <ul>
+            <li><strong>Windows</strong>: <code>Documents\American Truck Simulator\live_streams.sii</code></li>
+            <li><strong>Linux</strong>: <code>.local/share/Euro\ Truck\ Simulator\ 2/live_streams.sii</code></li>
+        </ul>
+        <p>Here you can add as many radio streams as you want following these steps:</p>
+        <ol>
+            <li>Copy the line below to the location hinted in the file, or just under the similar items:
+            <br><br>
+            <code>stream_data[]: "RADIO_URL|RADIO_NAME|GENRE|LANGUAGE|BITRATE"</code></li>
+            <br>
+            <li>Replace <code>RADIO_URL</code> with the URL address of the radio stream. Then replace <code>RADIO_NAME</code> with the name you want to see in the game, the same applies for <code>GENRE</code>, <code>LANGUAGE</code> and <code>BITRATE</code>. Remember to keep proper formatting, especially the <code>|</code> character that separates the radio URL from the name.</li>
+        </ol>
+        <p>After you are done, save the file and close it. Launch the game and open <strong>Radio</strong>. You should see the radio streams you just added on the list. Double-click one and it should start playing.</p>
+        <h4>Example <code>live_streams.sii</code> file</h4>
+        <pre>live_stream_def : .live_streams {
+stream_data[]: "http://123.123.123.123:8000|My Favourite Radio|Rock|EN|128"
+stream_data[]: "http://anotherradio.com/stream.mp3|Another Radio|Pop|RU|320"
+}
+        </pre>
+        <h4>Supported streams</h4>
+        <p>The game supports all MP3-type streams (except MMS). With proper codecs, which are often already installed, you can also listen to many other stream formats.</p>
+        <p><em><strong>NOTE:</strong> This feature is currently unavailable on Linux and macOS.</em></p>
+
+        <h3>How to add your favorite music to the game</h3>
+        <p>Go to the <code>music</code> folder and create a shortcut to the folder with your favorite music files:</p>
+        <ul>
+            <li><strong>Windows</strong>: <code>Documents\American Truck Simulator\music</code></li>
+            <li><strong>Linux</strong>: <code>.local/share/Euro\ Truck\ Simulator\ 2/music</code></li>
+        </ul>
+        <p>If all went well, you should be able to see the imported songs in the game on the <strong>Radio</strong> screen.</p>
+        <p>The game can play MP3 files as well as other formats depending on the codecs installed on your computer.</p>
+    </body>
+</html>
