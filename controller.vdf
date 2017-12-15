@@ -1,0 +1,30 @@
+"controller_mappings"
+{
+	"buttons"
+	{
+	}
+
+	"touchscreen"
+	{
+	}
+
+	"pads"
+	{
+	}
+
+	"settings"
+	{
+                "left_trackpad_mode"	"none"
+                "right_trackpad_mode"	"none"
+	}
+
+	"mode_overrides"
+	{
+	}
+
+	"metadata"
+	{
+		"title"	"Euro Truck Simulator 2"
+		"description" "test"
+	}
+}
