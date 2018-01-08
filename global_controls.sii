@@ -1,0 +1,17 @@
+SiiNunit
+{
+global_input_config : _nameless.0000.0000 {
+ version: 0
+ ui_whitelisted: 8
+ ui_whitelisted[0]: "xinput.xinput_gamepad_1"
+ ui_whitelisted[1]: "evdev.'/dev/input/event*@bluetooth-045e:02ea'"
+ ui_whitelisted[2]: "evdev.'/dev/input/event*@bluetooth-054c:05c4'"
+ ui_whitelisted[3]: "evdev.'/dev/input/event*@usb-045e:02d1'"
+ ui_whitelisted[4]: "evdev.'/dev/input/event*@usb-045e:02ea'"
+ ui_whitelisted[5]: "evdev.'/dev/input/event*@usb-045e:028e'"
+ ui_whitelisted[6]: "evdev.'/dev/input/event*@usb-054c:05c4'"
+ ui_whitelisted[7]: "evdev.'/dev/input/event*@usb-28de:11fc'"
+ ui_blacklisted: 0
+}
+
+}
