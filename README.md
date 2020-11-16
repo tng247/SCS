@@ -11,8 +11,8 @@ With [Git](https://git-scm.com) installed open a console/terminal window and exe
 
 For example:
 
-* **Windows** ([Steam](http://store.steampowered.com)): `C:\Program Files\Steam\steamapps\common\American Truck Simulator`
-* **Linux** ([Steam](http://store.steampowered.com)): `~/.local/share/Steam/steamapps/common/Euro\ Truck\ Simulator\ 2`
+* **Windows** ([Steam](http://store.steampowered.com)): `%USERPROFILE%\Documents\American Truck Simulator`
+* **Linux** ([Steam](http://store.steampowered.com)): `~/.local/share/Euro\ Truck\ Simulator\ 2`
 
 ## Contributing
 All content within this repository is free for both personal and commercial use without restriction (see [LICENSE](LICENSE)).
